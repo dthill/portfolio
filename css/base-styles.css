@@ -520,8 +520,8 @@ a {
 
 @media (max-width:700px) {
     .mobile {
-        display: block;;
-        width: 100%!important
+        display: block;
+        width: 100%!important;
     }
     .bar-item.mobile {
         text-align: center;
