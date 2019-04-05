@@ -24,6 +24,7 @@
 }
 
 .background-text{
+    padding: 0.3cm;
     word-break: break-all;
     text-align: left;
     font-size: 1em;
@@ -52,7 +53,7 @@ h2{
 .contact-details {
     width: 100%;
     height: 34%;
-    padding: 0.5rem 0.5rem;
+    padding: 0.2rem 0.5rem 0.3cm 0.5rem;
     line-height: 2rem;
     font-size: 13px;
     text-shadow: 3px 3px 10px #515151;
