@@ -1,229 +1,411 @@
-<!DOCTYPE html> 
-<html> 
-<head> 
-	<meta charset="UTF-8">
-	<title>Damien Thill</title>
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/base-styles.css">
-	<link rel="stylesheet" href="css/site-styles.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<body>
-	<nav class="bar sticky-top black">
-		<div class="container-center mobile">
-			<a href="#about" class="bar-item button hover-white">About</a>
-			<a href="#portfolio" class="bar-item button hover-white">Portfolio</a>
-			<a href="mailto:dthill@gmx.net" class="bar-item button hover-white">Contact</a>
-			<a href="#banner-text" class="button hover-white edit-button" >Hack it!</a>
-		</div>
-	</nav>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Damien Thill</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/base-styles.css" />
+    <link rel="stylesheet" href="css/site-styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <nav class="bar sticky-top black">
+      <div class="container-center mobile">
+        <a href="#about" class="bar-item button hover-white">About</a>
+        <a href="#portfolio" class="bar-item button hover-white">Portfolio</a>
+        <a href="mailto:dthill@gmx.net" class="bar-item button hover-white"
+          >Contact</a
+        >
+        <a href="#banner-text" class="button hover-white edit-button"
+          >Hack it!</a
+        >
+      </div>
+    </nav>
 
-	<div class="banner">
-		<div class="container-center mobile background-text" contenteditable="true">
-		</div>
-		<div id="banner-text" class="container-center mobile banner-text">
-			<h1>Damien Thill</h1>
-			<h3>Web Developer</h3>
-		</div>
-		<div class="banner-arrow"></div>
-	</div>
-	
-	<div class="main">
-	<div class="white-fade">
-		<h2 id="about" class="section-heading">About</h2>
-		<div class="container-center mobile about-subcontainer">
-			<div class="card about-container">
-				<p class="container mobile about-text">
-					I am a fullstack web developer specialising in JavaScript and PHP.
-					<br>
-					My career so far has had many twists and turns. I had the opportunity to work as a professional musician for almost a decade and tour around Europe. At the same time I had the chance to lead international workshops and tutor, teaching anything from music over performance art to English.
-					<br>
-					In web development I have found a new exciting career where I can apply many of the skills I have learned in my previous career be that creativity, problem solving, communicating effectively with people from different backgrounds or working in a tight knit team under pressure.
-					<br>
-					Being a fullstack web-developer gives me the continued opportunity to learn, be creative and develop new projects, some of which you can find bellow.
-					<br>
-					I am currently working as a part-time web developer for Linguala in Basel, Switzerland while I am continuing to further develop my programming skills.
-					<br>
-					When I am not working on web applications I like to cycle and travel.
+    <div class="banner">
+      <div
+        class="container-center mobile background-text"
+        contenteditable="true"
+      ></div>
+      <div id="banner-text" class="container-center mobile banner-text">
+        <h1>Damien Thill</h1>
+        <h3>Web Developer</h3>
+      </div>
+      <div class="banner-arrow"></div>
+    </div>
 
-				</p>
-				<img class="container mobile about-image" src="images/portrait.jpg" alt="portrait">
-			</div>
-		</div>
-		<h3 class="center">Skills</h3>
-		<div class="container-center mobile skills-container">
-			<div class="container mobile card skills">
-				<h4>Frontend</h4>
-				<table class="skills-table">
-					<tr>
-						<td class="skills-table-label">JavaScript</td>
-						<td class="skills-table-graph"><div class="percentage percentage-90">90%</div></td>
-					</tr>
-					<tr>
-						<td class="skills-table-label">HTML</td>
-						<td class="skills-table-graph"><div class="percentage percentage-80">80%</div></td>
-					</tr>
-					<tr>
-						<td class="skills-table-label">CSS</td>
-						<td class="skills-table-graph"><div class="percentage percentage-70">70%</div></td>
-					</tr>
-				</table>
-				<h4>Frontend Libraries and Frameworks</h4>
-				<p>
-					jQuery <br>
-					Handlebars <br>
-					Bootstrap 4 <br>
-					React <br>
-					Socket.io
-				</p>
-			</div>
-			<div class="container mobile card skills">
-				<h4>Backend</h4>
-				<table class="skills-table">
-					<tr>
-						<td class="skills-table-label">NodeJs</td>
-						<td class="skills-table-graph"><div class="percentage percentage-90">90%</div></td>
-					</tr>
-					<tr>
-						<td class="skills-table-label">PHP</td>
-						<td class="skills-table-graph"><div class="percentage percentage-70">70%</div></td>
-					</tr>
-					<tr>
-						<td class="skills-table-label">Python</td>
-						<td class="skills-table-graph"><div class="percentage percentage-50">50%</div></td>
-					</tr>
-				</table>
-				<h4>Backend Libraries and Frameworks</h4>
-				<p>
-					Express <br>
-					Mongoose <br>
-					WS (Websocket) <br>
-					Socket.io <br>
-					Handlebars <br>
-					HashIDs
-				</p>
-			</div>
-		</div>
-	</div>
+    <div class="main">
+      <div class="white-fade">
+        <h2 id="about" class="section-heading">About</h2>
+        <div class="container-center mobile about-subcontainer">
+          <div class="card about-container">
+            <p class="container mobile about-text">
+              I am a web developer specialising in JavaScript and React.
+              <br />
+              My career so far has had many twists and turns. I had the
+              opportunity to work as a professional musician for almost a decade
+              and tour around Europe. At the same time I had the chance to lead
+              international workshops and tutor, teaching anything from music
+              over performance art to English.
+              <br />
+              In web development I have found a new exciting career where I can
+              apply many of the skills I have learned in my previous career be
+              that creativity, problem solving, communicating effectively with
+              people from different backgrounds or working in a tight knit team
+              under pressure.
+              <br />
+              Being a web-developer gives me the continued opportunity to learn,
+              be creative and develop new projects, some of which you can find
+              bellow.
+              <br />
+              I am currently working as a web developer for Linguala in Basel,
+              Switzerland while I am continuing to further develop my
+              programming skills.
+              <br />
+              When I am not working on web applications I like to cycle and
+              travel.
+            </p>
+            <img
+              class="container mobile about-image"
+              src="images/portrait.jpg"
+              alt="portrait"
+            />
+          </div>
+        </div>
+        <h3 class="center">Skills</h3>
+        <div class="container-center mobile skills-container">
+          <div class="container mobile card skills">
+            <h4>Frontend</h4>
+            <table class="skills-table">
+              <tr>
+                <td class="skills-table-label">JavaScript</td>
+                <td class="skills-table-graph">
+                  <div class="percentage percentage-90">90%</div>
+                </td>
+              </tr>
+              <tr>
+                <td class="skills-table-label">React</td>
+                <td class="skills-table-graph">
+                  <div class="percentage percentage-80">80%</div>
+                </td>
+              </tr>
+              <tr>
+                <td class="skills-table-label">HTML</td>
+                <td class="skills-table-graph">
+                  <div class="percentage percentage-80">80%</div>
+                </td>
+              </tr>
+              <tr>
+                <td class="skills-table-label">CSS</td>
+                <td class="skills-table-graph">
+                  <div class="percentage percentage-70">70%</div>
+                </td>
+              </tr>
+            </table>
+            <h4>Other Frontend Libraries and Frameworks</h4>
+            <p>
+              Angular <br />
+              Bootstrap 4 <br />
+              jQuery <br />
+            </p>
+          </div>
+          <div class="container mobile card skills">
+            <h4>Backend</h4>
+            <table class="skills-table">
+              <tr>
+                <td class="skills-table-label">Javascript/Node</td>
+                <td class="skills-table-graph">
+                  <div class="percentage percentage-90">90%</div>
+                </td>
+              </tr>
+              <tr>
+                <td class="skills-table-label">Java</td>
+                <td class="skills-table-graph">
+                  <div class="percentage percentage-70">70%</div>
+                </td>
+              </tr>
+              <tr>
+                <td class="skills-table-label">Python</td>
+                <td class="skills-table-graph">
+                  <div class="percentage percentage-50">50%</div>
+                </td>
+              </tr>
+              <tr>
+                <td class="skills-table-label">PHP</td>
+                <td class="skills-table-graph">
+                  <div class="percentage percentage-30">30%</div>
+                </td>
+              </tr>
+            </table>
+            <h4>Backend Libraries and Frameworks</h4>
+            <p>
+              Express <br />
+              Mongoose <br />
+              MySQL <br />
+              Handlebars <br />
+            </p>
+          </div>
+        </div>
+      </div>
 
-	<div class="grey-fade">
-		<h2 id="portfolio" class="section-heading">Portfolio</h2>
-		<div class="container-center mobile projects-container">
+      <div class="grey-fade">
+        <h2 id="portfolio" class="section-heading">Portfolio</h2>
+        <div class="container-center mobile projects-container">
+          <div class="container mobile card project">
+            <a
+              href="https://dthill.github.io/angular-endless-wiki-viewer/"
+              target="_blank"
+            >
+              <img
+                src="images/angular-endless-wiki-viewer.jpg"
+                alt="project screenshot"
+                class="image center"
+              />
+              <h3 class="center">Angular Endless Wiki Viewer</h3>
+              <p>
+                This is a rebuild of the Endless Wiki Viewer with Angular. It
+                has very similar functionality to the React rebuild and also
+                very similar styling. <br />
+                I rebuild the same app in Angular to understand the differences
+                in Angular and React. I also wanted to get a better
+                understanding of the design patterns and ideas behind both.
+                Similar to the other two builds dealing with iframes was
+                difficult and due to the way that Angular’s DOMSanitizer works I
+                had to find a different approach to displaying the content of an
+                article in an iframe. <br />
+                Unlike the React version the Angular version has a router
+                implemented. Future editions could improve the user experience
+                by allowing keyboard navigation and opening links inside an
+                article in a new window.
+              </p>
+            </a>
+            <p>
+              <strong>Technologies used: </strong>HTML, JavaScript, Angular,
+              GitHub Pages, GitHub
+            </p>
+            <p>
+              <a
+                href="https://github.com/dthill/angular-endless-wiki-viewer"
+                target="_blank"
+                class="btn button black hover-white"
+                >Github Repository</a
+              >
+            </p>
+          </div>
 
-			<div class="container mobile card project">
-					<a href="https://dthill.github.io/angular-endless-wiki-viewer/" target="_blank">
-						<img src="images/angular-endless-wiki-viewer.jpg" alt="project screenshot" class="image center">
-						<h3 class="center">Angular Endless Wiki Viewer</h3>
-						<p>
-							This is a rebuild of the Endless Wiki Viewer with Angular. It has very similar functionality to the React rebuild and also very similar styling. <br>
-							I rebuild the same app in Angular to understand the differences in Angular and React. I also wanted to get a better understanding of the design patterns and ideas behind both. Similar to the other two builds dealing with iframes was difficult and due to the way that Angular’s DOMSanitizer works I had to find a different approach to displaying the content of an article in an iframe. <br> 
-							Unlike the React version the Angular version has a router implemented. Future editions could improve the user experience by allowing keyboard navigation and opening links inside an article in a new window.
-						</p>	
-					</a>
-					<p>
-						<strong>Technologies used: </strong>HTML, JavaScript, Angular, GitHub Pages, GitHub
-					</p>
-					<p><a href="https://github.com/dthill/angular-endless-wiki-viewer" target="_blank" class="btn button black hover-white">Github Repository</a></p>
-				</div>
-		
-			
-			<div class="container mobile card project">
-				<a href="https://dthill.github.io/react-endless-wiki-viewer/" target="_blank">
-					<img src="images/react-endless-wiki-viewer.jpg" alt="project screenshot" class="image center">
-					<h3 class="center">React Endless Wiki Viewer</h3>
-					<p>
-						This is a rebuild of the Endless Wiki Viewer with React. Users can still scroll through endless Wikipedia extracts and view them on the page.
-						<br>
-						I rebuild the same app to focus on learning React, to simplify it and to focus on the most important functions of the app and improve those. Similarly to the first build I learned a lot about how to handle iframes. What was new in this was the React part and how to deal with the state in React. In addition I used React Styled-Components to deal with encapsulating the styles inside the components in JavaScript.
-						<br>
-						A future version of this could include the use of React Router or Gatsby.js to add address bar navigation, forward/backwards history support and bookmark possibilities to the app.
-					</p>
-				</a>
-				<p>
-					<strong>Technologies used: </strong>HTML, JavaScript, React, React Styled-Compoents, GitHub Pages, GitHub
-				</p>
-				<p><a href="https://github.com/dthill/react-endless-wiki-viewer" target="_blank" class="btn button black hover-white">Github Repository</a></p>
-			</div>
+          <div class="container mobile card project">
+            <a
+              href="https://dthill.github.io/react-endless-wiki-viewer/"
+              target="_blank"
+            >
+              <img
+                src="images/react-endless-wiki-viewer.jpg"
+                alt="project screenshot"
+                class="image center"
+              />
+              <h3 class="center">React Endless Wiki Viewer</h3>
+              <p>
+                This is a rebuild of the Endless Wiki Viewer with React. Users
+                can still scroll through endless Wikipedia extracts and view
+                them on the page.
+                <br />
+                I rebuild the same app to focus on learning React, to simplify
+                it and to focus on the most important functions of the app and
+                improve those. Similarly to the first build I learned a lot
+                about how to handle iframes. What was new in this was the React
+                part and how to deal with the state in React. In addition I used
+                React Styled-Components to deal with encapsulating the styles
+                inside the components in JavaScript.
+                <br />
+                A future version of this could include the use of React Router
+                or Gatsby.js to add address bar navigation, forward/backwards
+                history support and bookmark possibilities to the app.
+              </p>
+            </a>
+            <p>
+              <strong>Technologies used: </strong>HTML, JavaScript, React, React
+              Styled-Compoents, GitHub Pages, GitHub
+            </p>
+            <p>
+              <a
+                href="https://github.com/dthill/react-endless-wiki-viewer"
+                target="_blank"
+                class="btn button black hover-white"
+                >Github Repository</a
+              >
+            </p>
+          </div>
 
+          <div class="container mobile card project">
+            <a
+              href="https://peaceful-eyrie-54198.herokuapp.com"
+              target="_blank"
+            >
+              <img
+                src="images/sharing-notes.jpg"
+                alt="project screenshot"
+                class="image center"
+              />
+              <h3 class="center">Sharing Notes</h3>
+              <p>
+                This is a Node and Express web application that allows the
+                real-time sharing of notes through a shared permalink. Each note
+                has a unique permalink that can be shared at will. The note is
+                updated in real-time through websocket use. If notes are not
+                needed anymore they can be deleted by the user.
+                <br />
+                This was a project to learn to use real-time web technologies.
+                Initially I used socket.io on the backend and frontend but I
+                later rewrote the code to just use WS on the backend and use
+                vanilla JavaScript on the frontend. I used HashIDs and a counter
+                in the database to create unique short IDs as permalinks.
+                <br />
+                It would be interesting to try to make this scalable. The
+                websocket implementation would have to change and probably
+                involve a database of all the connected clients to make it work.
+              </p>
+            </a>
+            <p>
+              <strong>Technologies used: </strong>Node, Express, MongoDB,
+              Mongoose, HashIDs, Websocket, WS, Socket.io, Handlebars, HTML,
+              CSS, JavaScript, GitHub, Heroku
+            </p>
+            <p>
+              <a
+                href="https://github.com/dthill/sharing-notes-Node-WS-app"
+                target="_blank"
+                class="btn button black hover-white"
+                >Github Repository</a
+              >
+            </p>
+          </div>
 
-			<div class="container mobile card project">
-				<a href="https://peaceful-eyrie-54198.herokuapp.com" target="_blank">
-					<img src="images/sharing-notes.jpg" alt="project screenshot" class="image center">
-					<h3 class="center">Sharing Notes</h3>
-					<p>
-						This is a Node and Express web application that allows the real-time sharing of notes through a shared permalink. Each note has a unique permalink that can be shared at will. The note is updated in real-time through websocket use. If notes are not needed anymore they can be deleted by the user.
-						<br>
-						This was a project to learn to use real-time web technologies. Initially I used socket.io on the backend and frontend but I later rewrote the code to just use WS on the backend and use vanilla JavaScript on the frontend. I used HashIDs and a counter in the database to create unique short IDs as permalinks.
-						<br>
-						It would be interesting to try to make this scalable. The websocket implementation would have to change and probably involve a database of all the connected clients to make it work.
-					</p>
-				</a>
-				<p>
-					<strong>Technologies used: </strong>Node, Express, MongoDB, Mongoose, HashIDs, Websocket, WS, Socket.io, Handlebars, HTML, CSS, JavaScript, GitHub, Heroku
-				</p>
-				<p><a href="https://github.com/dthill/sharing-notes-Node-WS-app" target="_blank" class="btn button black hover-white">Github Repository</a></p>
-			</div>
+          <div class="container mobile card project">
+            <a href="https://dthill.000webhostapp.com/" target="_blank">
+              <img
+                src="images/haiku-collector.jpg"
+                alt="project screenshot"
+                class="image center"
+              />
+              <h3 class="center">Haiku Collector</h3>
+              <p>
+                This is a PHP app that allows users to write and share haiku
+                poems. It has a voting system to report inappropriate haikus,
+                allowing the users to report and eventually remove inappropriate
+                haikus if enough votes are collected. A removed haiku is stored
+                for 30 days during which time it can be restored if it receives
+                more restoring votes than it has removing votes. The app is
+                fully responsive and work on phones and tablets.
+                <br />
+                This was a project to learn and improve my PHP and MySQL skills.
+                It implements a CRUD RESTful API that is used in conjunction
+                with AJAX. In the process of writing this I learned a lot about
+                security, dealing with and avoiding SQL injection and cross-site
+                scripting. This uses again my version of Handlebars templating
+                code adapted for this project.
+                <br />
+                Unfortunately this app is on a free webhost that is rather
+                unreliable so I am sorry if you cannot try this app.
+              </p>
+            </a>
+            <p>
+              <strong>Technologies used: </strong>PHP, MySQL, Apache, HTML, CSS,
+              JavaScript, GitHub
+            </p>
+            <p>
+              <a
+                href="https://github.com/dthill/haiku-collector-PHP"
+                target="_blank"
+                class="btn button black hover-white"
+                >Github Repository</a
+              >
+            </p>
+          </div>
 
-			<div class="container mobile card project">
-				<a href="https://dthill.000webhostapp.com/" target="_blank">
-					<img src="images/haiku-collector.jpg" alt="project screenshot" class="image center">
-					<h3 class="center">Haiku Collector</h3>
-					<p>
-						This is a PHP app that allows users to write and share haiku poems. It has a voting system to report inappropriate haikus, allowing the users to report and eventually remove inappropriate haikus if enough votes are collected. A removed haiku is stored for 30 days during which time it can be restored if it receives more restoring votes than it has removing votes. The app is fully responsive and work on phones and tablets.
-						<br>
-						This was a project to learn and improve my PHP and MySQL skills. It implements a CRUD RESTful API that is used in conjunction with AJAX. In the process of writing this I learned a lot about security, dealing with and avoiding SQL injection and cross-site scripting. This uses again my version of Handlebars templating code adapted for this project.
-						<br>
-						Unfortunately this app is on a free webhost that is rather unreliable so I am sorry if you cannot try this app.
-					</p>
-				</a>
-				<p>
-					<strong>Technologies used: </strong>PHP, MySQL, Apache, HTML, CSS, JavaScript, GitHub
-				</p>
-				<p><a href="https://github.com/dthill/haiku-collector-PHP" target="_blank" class="btn button black hover-white">Github Repository</a></p>
-			</div>
+          <div class="container mobile card project">
+            <a
+              href="https://dthill.github.io/endless-wiki-viewer-frontend/"
+              target="_blank"
+            >
+              <img
+                src="images/endless-wiki-viewer.jpg"
+                alt="project screenshot"
+                class="image center"
+              />
+              <h3 class="center">Endless Wiki Viewer</h3>
+              <p>
+                This is a frontend web-application using vanilla JavaScript and
+                Bootstrap 4. It creates an endless scrolling feed of Wikipedia
+                articles that can be viewed in the app and saved in the
+                localstorage of the device. The app is fully responsive and
+                works on phones and tablets.
+                <br />
+                This was mainly a project to learn about AJAX requests to
+                established APIs. In the end I also learned a lot more about DOM
+                manipulation, event delegation and the tricks and problems of
+                CSS styling for iOS and mobile devices in general. The first
+                version also used Handlebars for templating but I later wrote my
+                own code for templating using the same principle as Handlebars.
+                <br />
+                A future version of this could include a Vue or React frontend.
+              </p>
+            </a>
+            <p>
+              <strong>Technologies used: </strong>HTML, CSS, JavaScript,
+              Bootstrap 4, Handlebars, GitHub
+            </p>
+            <p>
+              <a
+                href="https://github.com/dthill/endless-wiki-viewer-frontend"
+                target="_blank"
+                class="btn button black hover-white"
+                >Github Repository</a
+              >
+            </p>
+          </div>
 
-			<div class="container mobile card project">
-				<a href="https://dthill.github.io/endless-wiki-viewer-frontend/" target="_blank">
-					<img src="images/endless-wiki-viewer.jpg" alt="project screenshot" class="image center">
-					<h3 class="center">Endless Wiki Viewer</h3>
-					<p>
-						This is a frontend web-application using vanilla JavaScript and Bootstrap 4. It creates an endless scrolling feed of Wikipedia articles that can be viewed in the app and saved in the localstorage of the device. The app is fully responsive and works on phones and tablets.
-						<br>
-						This was mainly a project to learn about AJAX requests to established APIs. In the end I also learned a lot more about DOM manipulation, event delegation and the tricks and problems of CSS styling for iOS and mobile devices in general. The first version also used Handlebars for templating but I later wrote my own code for templating using the same principle as Handlebars.
-						<br>
-						A future version of this could include a Vue or React frontend.
-					</p>
-				</a>
-				<p>
-					<strong>Technologies used: </strong>HTML, CSS, JavaScript, Bootstrap 4, Handlebars, GitHub
-				</p>
-				<p><a href="https://github.com/dthill/endless-wiki-viewer-frontend" target="_blank" class="btn button black hover-white">Github Repository</a></p>
-			</div>
+          <div class="container mobile card project">
+            <a href="https://dthill.github.io/jsballgame/" target="_blank">
+              <img
+                src="images/p1ng.jpg"
+                alt="project screenshot"
+                class="image center"
+              />
+              <h3 class="center">P1ng</h3>
+              <p>
+                This was the first JavaScript game I wrote. It is a Pong clone
+                developed using vanilla JavaScript and the canvas API. It is
+                responsive and can be played on phones and tablets.
+                <br />
+                This was mainly a project to learn about the basics of
+                JavaScript and the basic use of the canvas API. This was also my
+                first project to be put on GitHub another skill I learned
+                through this project.
+              </p>
+            </a>
+            <p>
+              <strong>Technologies used: </strong>HTML, CSS, JavaScript, GitHub
+            </p>
+            <p>
+              <a
+                href="https://github.com/dthill/jsballgame"
+                target="_blank"
+                class="btn button black hover-white"
+                >Github Repository</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
 
-			<div class="container mobile card project">
-				<a href="https://dthill.github.io/jsballgame/" target="_blank">
-					<img src="images/p1ng.jpg" alt="project screenshot" class="image center">
-					<h3 class="center">P1ng</h3>
-					<p>
-						This was the first JavaScript game I wrote. It is a Pong clone developed using vanilla JavaScript and the canvas API. It is responsive and can be played on phones and tablets.
-						<br>
-						This was mainly a project to learn about the basics of JavaScript and the basic use of the canvas API. This was also my first project to be put on GitHub another skill I learned through this project.
-					</p>
-				</a>
-				<p>
-					<strong>Technologies used: </strong>HTML, CSS, JavaScript, GitHub
-				</p>
-				<p><a href="https://github.com/dthill/jsballgame" target="_blank" class="btn button black hover-white">Github Repository</a></p>
-			</div>
-		</div>
-	</div>
-
-
-	<div class="footer-arrow">	
-	</div>
-	<div class="footer">
-	</div>
-	</div>
-	<script src="scripts/script.js"></script>
-</body>
+      <div class="footer-arrow"></div>
+      <div class="footer"></div>
+    </div>
+    <script src="scripts/script.js"></script>
+  </body>
 </html>
