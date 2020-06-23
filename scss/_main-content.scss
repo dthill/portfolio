@@ -1,0 +1,15 @@
+.main-content {
+  background-image: linear-gradient(
+    var(--color-background),
+    var(--color-background-secondary)
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-content__heading {
+  padding-top: 3.5rem; /* add 2.5rem to avoid the anchor being hidden behind navbar on scroll*/
+  margin-top: -2.5rem; /* remove 2.5rem to compensate for line above */
+  text-align: center;
+}

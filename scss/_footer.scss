@@ -1,0 +1,15 @@
+.footer {
+  background-color: var(--color-secondary);
+  width: 100%;
+  position: relative;
+}
+
+.footer__arrow {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10vh 50vw 0 50vw; /*0 left side of base length, height, right side of base length */
+  border-color: var(--color-background-secondary) transparent transparent
+    transparent;
+  background-color: var(--color-secondary);
+}

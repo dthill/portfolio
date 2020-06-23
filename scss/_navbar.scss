@@ -1,0 +1,33 @@
+.navbar {
+  background: var(--color-primary);
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.navbar__container {
+  max-width: 1000px;
+  display: flex;
+  justify-content: left;
+  margin: 0 auto;
+}
+
+.navbar__item {
+  padding: 0.5rem 1rem;
+  color: var(--color-background);
+  outline: 0;
+  &:hover {
+    color: var(--color-primary);
+    background-color: var(--color-background);
+  }
+}
+
+.navbar__item--right {
+  margin-left: auto;
+}
+
+.navbar__item--invert {
+  color: var(--color-primary);
+  background-color: var(--color-background);
+}

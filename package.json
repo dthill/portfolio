@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "0.0.2",
+  "description": "Personal portfolio",
+  "main": "index.html",
+  "scripts": {
+    "start": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dthill/portfolio.git"
+  },
+  "author": "dthill",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dthill/portfolio/issues"
+  },
+  "homepage": "https://github.com/dthill/portfolio#readme"
+}
