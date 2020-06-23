@@ -12,7 +12,7 @@
   font-size: 16px;
   color: #696969;
   z-index: 1;
-  overflow-y: hidden;
+  overflow: hidden;
   height: 27em;
   transition: height 2s, color 2s, padding 2s, background-color 2s,
     box-shadow 1s;
@@ -20,7 +20,6 @@
   scroll-behavior: smooth;
   padding-top: 2.5rem;
   margin-top: -2.5rem;
-  overflow-x: hidden;
 }
 
 .banner__title-text {
